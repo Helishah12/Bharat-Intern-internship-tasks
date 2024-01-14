@@ -1,162 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Website Clone</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <img src="logo.png" class="logo">
-            <div>
-                <button class="language-btn">English <img src="down-icon.png"></button>
-                <button>Sign In</button>
-            </div>
-        </nav>
-        <div class="header-content">
-            <h1>Unlimited movies, TV shows and more</h1>
-            <h3>Watch anywhere. Cancel anytime.</h3>
-            <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <form class="email-signup">
-                <input type="emial" placeholder="Email address" required>
-                <button type="submit">Get Started</button>
-            </form>
-        </div>
-    </div>
-    <div class="features">
-        <div class="row">
-            <div class="text-col">
-                <h2>Enjoy on your TV</h2>
-                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-            </div>
-            <div class="img-col">
-                <img src="feature-1.png" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="img-col">
-                <img src="feature-2.png" >
-            </div>
-            <div class="text-col">
-                <h2>Download your shows to watch offline</h2>
-                <p>Save your favourites easily and always have something to watch.
-
-                </p>
-            </div>
+    <header>
+        <div class="logo">
             
         </div>
-        <div class="row">
-            <div class="text-col">
-                <h2>Watch everywhere</h2>
-                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-            </div>
-            <div class="img-col">
-                <img src="feature-3.png" >
-            </div>
+        <div class="navDiv">
+            <label for="menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
         </div>
-        <div class="row">
-            <div class="img-col">
-                <img src="feature-4.png" >
-            </div>
-            <div class="text-col">
-                <h2>Create profiles for kids</h2>
-                <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
-            </div>
-           
-        </div>
-    </div>
-
-
-
-    <div class="faq">
-        <h2>Frequently Asked Questions</h2>
-
-        <ul class="accordion">
-            <li>
-                <input type="radio" name="accordion" id="first">
-                <label for="second">how much is Netflix cost?</label>
-                <div class="content">
-                    <p>Loem ipsum sit amet consectetur adipiscing elit .Ut maximus facibus ligula in cursus Aenean elementum mauris tellus ,ullamcorper fringilla justo susscipit ut Ut eu justo semper cursus velit id ,feugiat odio</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="second">
-                <label for="first">What is Netflix?</label>
-                <div class="content">
-                    <p>Loem ipsum sit amet consectetur adipiscing elit .Ut maximus facibus ligula in cursus Aenean elementum mauris tellus ,ullamcorper fringilla justo susscipit ut Ut eu justo semper cursus velit id ,feugiat odio</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="third">
-                <label for="third">Where can I watch?</label>
-                <div class="content">
-                    <p>Loem ipsum sit amet consectetur adipiscing elit .Ut maximus facibus ligula in cursus Aenean elementum mauris tellus ,ullamcorper fringilla justo susscipit ut Ut eu justo semper cursus velit id ,feugiat odio</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="fourth">
-                <label for="fourth">how can I cancel?</label>
-                <div class="content">
-                    <p>Loem ipsum sit amet consectetur adipiscing elit .Ut maximus facibus ligula in cursus Aenean elementum mauris tellus ,ullamcorper fringilla justo susscipit ut Ut eu justo semper cursus velit id ,feugiat odio</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="fifth">
-                <label for="fifth">What can I watch on Netflix?</label>
-                <div class="content">
-                    <p>Loem ipsum sit amet consectetur adipiscing elit .Ut maximus facibus ligula in cursus Aenean elementum mauris tellus ,ullamcorper fringilla justo susscipit ut Ut eu justo semper cursus velit id ,feugiat odio</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="sixth">
-                <label for="sixth">Is Netflix good for kids?</label>
-                <div class="content">
-                    <p>Loem ipsum sit amet consectetur adipiscing elit .Ut maximus facibus ligula in cursus Aenean elementum mauris tellus ,ullamcorper fringilla justo susscipit ut Ut eu justo semper cursus velit id ,feugiat odio</p>
-                </div>
-            </li>
+        <input type="checkbox" id="menu">
+        <ul class="nav">
+            <label for="menu">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
-        <small>Ready to watch? Enter your email to create or restart your membership</small>
-        <form class="email-signup">
-            <input type="emial" placeholder="Email address" required>
-            <button type="submit">Get Started</button>
-        </form>
-    </div>
-    <div class="fooetr">
-        <h2>Questions? call 000-000-000-000</h2>
+    </header>
+    <div class="container">
+        <!--banner-->
+        <div class="banner" id="home">
+            <div class="content">
+                <p>WELCOME TO MY PROFILE</p>
+                <h1>
+                    Hi, I'm HELI SHAH</br>
+                    a
+                    <div class="gradientext">
+                        <div class="job"
+                        data-job1="{Developer}"
+                        data-job2="{FrondEnd}"
+                        ></div>
+                    </div>
+                    
+                </h1>
+                <p>
+                    I'm a passionate student of Computer Science & Engineering, studying in the 2nd year of Diploma.
 
-        <div class="row">
-            <div class="col">
-                <a href="#">FAQ</a>
-                <a href="#">Investor Relations</a>
-                <a href="#">Privacy</a>
-                <a href="#">Speed Test</a>
+                   Proficient in HTML, CSS, JavaScript, and Java, I enjoy crafting visually appealing web pages.
+                </p>
+                <div class="find">
+                    <h3>Contact Me</h3>
+                    <ul>
+                        <li>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
-            <div class="col">
-                <a href="#">Help Center</a>
-                <a href="#">Jobs</a>
-                <a href="#">Cookies Prefereneces</a>
-                <a href="#">Legal Noties</a>
-
+            <div class="avatar">
+                <img src="Heli.jpeg" alt="">
             </div>
-            <div class="col">
-                <a href="#">Accounts</a>
-                <a href="#">Way to watch</a>
-                <a href="#">Corporate Information</a>
-                <a href="#">Only on Netflix</a>
+        </div>
+        <!--skill-->
+        <div id="skill">
+            <div class="title">MY SKILLS</div>
+            <div class="listSkill">
+                <div class="item">
+                    <div class="name">HTML5</div>
+                    <div class="evluate"
+                    style="--point: 80%"></div>
+                </div>
 
+                <div class="item">
+                    <div class="name">CSS3</div>
+                    <div class="evluate"
+                    style="--point: 70%"></div>
+                </div>
+
+                <div class="item">
+                    <div class="name">JAVASCRIPT</div>
+                    <div class="evluate"
+                    style="--point: 80%"></div>
+                </div>
+                <div class="item">
+                    <div class="name">C</div>
+                    <div class="evluate"
+                    style="--point: 70%"></div>
+                </div>
+                <div class="item">
+                    <div class="name">JAVA</div>
+                    <div class="evluate"
+                    style="--point: 60%"></div>
+                </div>
+                <div class="item">
+                    <div class="name">PHP</div>
+                    <div class="evluate"
+                    style="--point: 50%"></div>
+                </div>
+                <div class="item">
+                    <div class="name">C++</div>
+                    <div class="evluate"
+                    style="--point: 50%"></div>
+                </div>
             </div>
-            <div class="col">
-                <a href="#">Media center</a>
-                <a href="#">Terms of Use</a>
-                <a href="#">Contact Us</a>
+        </div>
+        <!--project-->
+        <div id="project">
+            <div class="title">PROJECT</div>
+            <div class="listproject">
+                <div class="item">
+                    <img src="portfolio3.jpg" alt="">
+                    <div class="name">
+                        <a href="https://vinitnetflix.netlify.app/" class="">See this Project</a>
+                        
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="project1.jpg" alt="">
+                    <div class="name">
+                        <a href="https://vinitstarbucks.netlify.app/" class="">See this project</a>
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="project2.jpg" alt="">
+                    <div class="name">
+                        <a href="https://vinitjewellarywebsite.netlify.app/" class="">See this Project</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="project3.jpg" alt="">
+                    <div class="name">
+                        <a href="https://vinitcalendar.netlify.app/" class="">See this Project</a>
+
+
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="project4.jpg" alt="">
+                    <div class="name">
+                        <a href="https://vinitshoes.netlify.app/" class="">See this Project</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="project5.jpg" alt="">
+                    <div class="name">
+                        <a href="https://vinitxplore.netlify.app/" class="">See this Project</a>
+                    </div>
+                </div>
+
 
             </div>
         </div>
-        <button class="language-btn">English <img src="down-icon.png"></button>
-        <p class="copyright-txt">Netflix India</p>
-    </div>
+        <!--contact-->
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804944%7Cb%7Cfacebook%20%27%7C&placement=&creative=550525804944&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D1007785%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMI0ZeD6OGEgQMV1tEWBR1iggUWEAAYASAAEgIj8vD_BwE"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/vinit-shah-2aba49256/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="PT-1-java-QB.pdf"  download class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6"  placeholder="Your Mesage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+   
+    
 </body>
 </html>
